@@ -1,46 +1,26 @@
 const store = require('../lib/store');
+const get = require('../lib/get');
 const fs = require('fs');
 const assert = require('assert'); 
 
-// const elements = {
-//   hydrogen : {
-//     name: 'hydrogen',
-//     number: 1,
-//     mass: 1,
-//     symbol: 'H'
-//   },
-//   helium : {
-//     name: 'helium',
-//     number: 2,
-//     mass: 4,
-//     symbol: 'He'
-//   },
-//   lithium : {
-//     name: 'lithium',
-//     number: 3,
-//     mass: 7,
-//     symbol: 'Li'
-//   }
-// };
-
 const elements = [
   {
-    name: "hydrogen",
+    name: 'hydrogen',
     number: 1,
     mass: 1,
-    symbol: "H"
+    symbol: 'H'
   },
   {
-    name: "helium",
+    name: 'helium',
     number: 2,
     mass: 4,
-    symbol: "He"
+    symbol: 'He'
   },
   {
-    name: "lithium",
+    name: 'lithium',
     number: 3,
     mass: 7,
-    symbol: "Li"
+    symbol: 'Li'
   }
 ];
 
