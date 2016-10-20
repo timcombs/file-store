@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "file system store and retrieve",
   "main": "lib/index.js",
-  "directories": {
-    "test": "test"
-  },
+  "directories": "",
   "scripts": {
     "pretest": "npm run lint",
     "lint": "eslint .",
-    "test": "npm run plain:test",
-    "plain:test": "mocha",
-    "test:watch": "npm run plain:test -- -w"
+    "test": "mocha",
+    "test:watch": "npm run test -- -w"
   },
   "repository": {
     "type": "git",
